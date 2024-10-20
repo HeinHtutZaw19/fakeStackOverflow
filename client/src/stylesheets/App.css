@@ -1,0 +1,374 @@
+/* Add your CSS here */
+/* Add your CSS here */
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/log-out.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    height: 100vh;
+	overflow: hidden;
+}
+
+/* Home Page */
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px
+}
+
+.hidden{
+	display: none;
+}
+
+.fakeso{
+    width: 100wh;
+    height: 100vh;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+	width: 100%;
+	height: 10vh;
+	background-color: lightblue;
+	display: flex;
+	text-align: center;
+	align-items:center;
+	justify-content: space-around;
+	border-bottom:solid black
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+#menu{
+	width: 400px;
+	height: 100%;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: column;
+	border-right: dotted black;
+}
+#menu > a {
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+    text-decoration: none;
+    margin-top: 30%;
+}
+
+#header{
+	width: 100%;
+	height: 20vh;
+	border-bottom: dotted black;
+}
+
+.flex_row_container{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Buttons */
+
+.option_button{
+	background-color: white;
+	outline:none;
+	width: 100%;
+	cursor: pointer;
+	border: none;
+}
+
+.option_button:hover{
+	transform: scale(1.1);
+}
+
+.blue_button{
+	background-color:#356EDB;
+	color:white;
+	text-align:center;
+	display:inline-block;
+	cursor:pointer;
+	border-radius: 3px;
+	padding: 10 12
+}
+
+.blue_button:hover{
+	transform: scale(1.1);
+}
+
+
+.grey_button{
+	background-color:grey;
+	color:white;
+	text-align:center;
+	display:inline-block;
+	cursor:pointer;
+	border-radius: 3px;
+	padding: 1% 10%
+}
+
+.grey_button:hover{
+	transform: scale(1.1);
+}
+
+
+
+
+/* Questions */
+#question_board{
+    overflow: auto;
+    height: 60vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.question{
+	width: 100%;
+	height: 20%;
+	display: grid;
+	grid-template-rows: repeat(2, 50%);
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-areas: 
+	'count header questioner'
+	'empty1 tag empty2';
+	padding: 1%;
+	align-items: center;
+	justify-content: center;
+	border-bottom: dotted black;
+	padding-left: 5%
+}
+.count_container{
+	grid-area: count;
+	display: flex;
+	flex-direction: column;
+}
+.title_container{
+	grid-area: header;
+}
+.questioner_container{
+	grid-area:questioner;
+}
+.tag_container{
+	width: 100%;
+	height: 100%;
+	grid-area: tag
+}
+.questioner_name{
+	color: red;
+	text-align: left;
+}
+.question_title{
+	font-size: 21px;
+	color: blue;
+	text-align: left;
+	cursor: pointer;
+}
+.tag_name{
+	display: inline-block;
+	margin-right: 5px;
+	border: solid black;
+	border-radius: 10px;
+	text-align:left;
+	background-color: grey;
+	color: white;
+	padding: 0% 3%;
+	background-color: lightskyblue;
+}
+
+/* Answer Page */
+#question_elaboration{
+	width: 100%;
+	height: auto;
+	border-bottom: black solid 1px;;
+}
+#answer_board{
+	width: 100%;
+	height: 38%;
+	overflow: auto;
+	border-bottom: black solid 1px;
+}
+.answer_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+.column_flex{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.question_info{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-between;
+}
+.bold{
+	font-size: 20px;
+	font-weight: bold;
+}
+.left_aligned{
+	text-align: left;
+}
+
+/* Tag Page */
+#tag_grid > div {
+	
+	font-size: 20px;
+	text-align:center;
+	padding: 10px;
+	border: dashed 2px black;
+}
+
+#tag_grid{
+	border-bottom: black 1px solid;
+	height: 65vh;
+	padding: 2%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 100px;
+	gap: 5%;
+	overflow: auto; 
+}
+
+
+/* Question Form */
+.form_template{
+	padding: 2%;
+	margin-left: 5%;
+}
+.error{
+	color:red;
+	display: block;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.flex_horizontal{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Registration Form */
+.flex_vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+	
+}
+
+.gg-log-out {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 6px;
+    height: 16px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-right: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: -10px
+}
+
+.vote-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.upvote-btn, .downvote-btn {
+    cursor: pointer;
+    color: #888;
+}
+.upvote-btn:hover, .downvote-btn:hover{
+	color:black
+}
+.upvote-btn:active {
+    color: #00bcd4;
+}
+
+.downvote-btn:active{
+    color: #ff5722;
+}
+
+.grey{
+	color: rgb(105, 94, 94);
+}
+
+.catalog {
+    border: hidden; 
+    color: blue;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+	cursor: pointer;
+}
+
+.catalog:hover {
+    font-size: 18px;
+}
+
+
+.delete {
+	width: auto;
+	height: auto;
+	color: white;
+	background-color: red;
+}
+.delete:hover {
+	transform: scale(1.1)
+}
+.hover:hover{
+	color:darkblue;
+	font-weight: bold;
+	cursor: pointer;
+}
+.hover_transform{
+	font-weight: normal;
+}
+.hover_transform:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.arrow {
+	border: solid grey;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-right: 10px
+  }
+
+  .arrow:hover{
+	border:solid black;
+	border-width: 0 3px 3px 0;
+	font-weight: bolder;
+	cursor: pointer;
+  }
+  
+  .left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+  }
+  
