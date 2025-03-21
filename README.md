@@ -128,62 +128,72 @@ MongoDB: mongodb://127.0.0.1:27017/fake_so
 
 * Users authentication are securely stored
 * Users can view questions in the question board in either Newest / Active / Unanswered order.
-<figure style="text-align: center;">
-    <img src="./images/question_page.png" alt="Question Page" width="1000">
-    <figcaption>Fig 1: Question Page</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/question_page.png" alt="Question Page" width="1000">
+  <br>
+  <em>Fig 1: Question Page</em>
+</p>
 
 * Users can ask questions in the question form
-<figure style="text-align: center;">
-    <img src="./images/question_form.png" alt="Question Page" width="1000">
-    <figcaption>Fig 2: Question Form</figcaption>
-</figure>
 
-* Users can update their questions 
+<p align="center">
+  <img src="./images/question_form.png" alt="Question Page" width="1000">
+  <br>
+  <em>Fig 2: Question Form</em>
+</p>
 
-<figure style="text-align: center;">
-    <img src="./images/update_question.png" alt="Edit Question Page" width="1000">
-    <figcaption>Fig 3: Edit Question Page</figcaption>
-</figure>
+* Users can update their questions
+
+<p align="center">
+  <img src="./images/update_question.png" alt="Edit Question Page" width="1000">
+  <br>
+  <em>Fig 3: Edit Question Page</em>
+</p>
 
 * Users can answer the questions
 
-<figure style="text-align: center;">
-    <img src="./images/answer_form.png" alt="Edit Question Page" width="1000">
-    <figcaption>Fig 4: Answer Form </figcaption>
-</figure>
+<p align="center">
+  <img src="./images/answer_form.png" alt="Answer Form" width="1000">
+  <br>
+  <em>Fig 4: Answer Form</em>
+</p>
 
 * Users can navigate the questions associated with the tags in the Tag Page.
 
-<figure style="text-align: center;">
-    <img src="./images/tag_page.png" alt="Tags Page" width="1000">
-    <figcaption>Fig 5: Tag Page</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/tag_page.png" alt="Tags Page" width="1000">
+  <br>
+  <em>Fig 5: Tag Page</em>
+</p>
 
 * Users can navigate what they asked for, what they answered, and their points in the profile page.
 
-<figure style="text-align: center;">
-    <img src="./images/profile_page.png" alt="Profile Page" width="1000">
-    <figcaption>Fig 6: Profile Page</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/profile_page.png" alt="Profile Page" width="1000">
+  <br>
+  <em>Fig 6: Profile Page</em>
+</p>
 
 * Users can like, comment, and view the question and answer.
 
-<figure style="text-align: center;">
-    <img src="./images/answer_page.png" alt="Answer Page" width="1000">
-    <figcaption>Fig 7: Answer Page</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/answer_page.png" alt="Answer Page" width="1000">
+  <br>
+  <em>Fig 7: Answer Page</em>
+</p>
 
 * Users can search for question/answers with word in the search bar
 
-<figure style="text-align: center;">
-    <img src="./images/word_search.png" alt="Word Search" width="1000">
-    <figcaption>Fig 8: Word Search</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/word_search.png" alt="Word Search" width="1000">
+  <br>
+  <em>Fig 8: Word Search</em>
+</p>
 
 * Users can search for question/answers with tag in the search bar with `[]`
 
-<figure style="text-align: center;">
-    <img src="./images/tag_search.png" alt="Tag Search" width="1000">
-    <figcaption>Fig 9: Tag Search</figcaption>
-</figure>
+<p align="center">
+  <img src="./images/tag_search.png" alt="Tag Search" width="1000">
+  <br>
+  <em>Fig 9: Tag Search</em>
+</p>
